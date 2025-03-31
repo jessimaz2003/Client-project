@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <link rel="stylesheet" href="404style.css">
+    <link rel="icon" href="favicon_umsi.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="not-found-container">
+        <h1>Oops! 404 Error</h1>
+        <p>We can't seem to find the page you're looking for.</p>
+        <a href="index.html" class="return-home">Return to Home</a>
+    </div>
+    <footer>
+        <p>&copy; <span id="year"></span> University of Michigan. All rights reserved.</p>
+    </footer>
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

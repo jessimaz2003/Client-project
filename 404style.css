@@ -1,0 +1,57 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #00274C;
+    font-family: Arial, sans-serif;
+}
+
+.not-found-container {
+    text-align: center;
+    width: 80%; 
+    padding: 40px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /*Searched up how to add shadow*/
+    border: #FFD700 10px groove;
+}
+
+.not-found-container h1 {
+    font-size: 4vw;
+    margin-bottom: 15px;
+    color: #00274C; 
+}
+
+.not-found-container p {
+    font-size: 3vw;
+    color: #00274C; 
+}
+
+.return-home {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2vw;
+    color: #FFFFFF; 
+    background-color: #00274C; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /*Searched up how to add transition*/
+}
+
+.return-home:hover {
+    background-color: #FFCB05; 
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5vw;
+    background-color: #00274C;
+    color: #FFD700;
+}
